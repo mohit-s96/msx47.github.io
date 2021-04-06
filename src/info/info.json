@@ -1,0 +1,129 @@
+{
+  "about": {
+    "headline": "Hi, I am Mohit. I am a software engineer based in Bangalore, IN.",
+    "para1": " I work as a freelance full stack developer. I like building all sorts of things that have to do with the web. This includes websites ranging from simple static design to full stack social media web apps. I also like the design aspect of things and always try my best to provide amazing UX.",
+    "para2": {
+      "1": "I graduated from from the, ",
+      "2": "Visvesvaraya Technological University",
+      "3": "and started work as an Intern at a local startup shortly after. I currently work as a freelance web developer but I am open for job opportunites."
+    }
+  },
+  "hero": {
+    "desc": "I am a software engineer based in Bangalore, IN. I specialize in building fully fledged websites and applications."
+  },
+  "techlist": [
+    "HTML & CSS",
+    "JavaScript ES6+",
+    "Bootstrap/Materialize",
+    "React",
+    "SQL/NoSQL databases",
+    "Express",
+    "GraphQL",
+    "Node.JS",
+    "Firebase",
+    "Next.JS"
+  ],
+  "workedWith": [
+    {
+      "name": "Skootr",
+      "location": "Gurgaon",
+      "desc": "Worked on designing the frontend dashboard for the company's enterprise app."
+    },
+    {
+      "name": "Iarani Inc",
+      "location": "Gurgaon - Remote",
+      "desc": "Designed efficient / fast front-end in React / Redux with Firebase."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Whiner - A social media App",
+      "desc": "Whiner is a full stack social media application which allows users to create posts, follow users, receive engagement notification and many other interactive things.",
+      "languages": [
+        "HTLML/CSS",
+        "Javascript",
+        "React",
+        "Redux",
+        "Nide.JS",
+        "Firebase"
+      ],
+      "liveLink": "https://whiner2-82d5e.web.app/",
+      "github": "https://github.com/msx47/twitter-clone-react-frontend",
+      "thumb": "whiner.jpg"
+    },
+    {
+      "name": "Best Jobs - A recruiter facing Job Posting Board",
+      "desc": "Recruiter dashboard for a job portal website in react. Allows recruiter authentication and job postings.",
+      "languages": [
+        "HTLML/CSS",
+        "Javascript",
+        "React",
+        "Redux",
+        "Nide.JS",
+        "Firebase"
+      ],
+      "liveLink": "https://bestjobs-a6f12.web.app/",
+      "github": "https://github.com/msx47/react-job-portal-dashboard",
+      "thumb": "job-portal.jpg"
+    },
+    {
+      "name": "Keepnotes - For organizing and editing notes",
+      "desc": "Web App in react to create, organize and edit notes. Uses react calendar and redux. Notes are persisted to localstorage.",
+      "languages": ["HTLML/CSS", "Javascript", "React", "Redux"],
+      "liveLink": "https://keepnotes-5542b.web.app/",
+      "github": "https://github.com/msx47/keep-notes",
+      "thumb": "keepnotes.jpg"
+    },
+    {
+      "name": "Retro Public Chatroom",
+      "desc": "A simple relatime public chatroom. Users can join different rooms and change their names on joining. This is an SPA made with only Vanilla JS w/o any frameworks.",
+      "languages": ["HTLML/CSS", "Javascript", "Firebase"],
+      "liveLink": "https://dummy-project-242d5.web.app/",
+      "github": "https://github.com/msx47/firebase-open-chatroom",
+      "thumb": "chat.jpg"
+    },
+    {
+      "name": "Github Profile Stats",
+      "desc": "A web app for retrieving relevant github stats such as stars, followers, repositories etc. and displaying them in an organized manner.",
+      "languages": ["HTLML/CSS", "Javascript", "Bootstrap", "Github API"],
+      "liveLink": "https://msx47.github.io/Github-Profile-stats/",
+      "github": "https://github.com/msx47/Github-Profile-stats",
+      "thumb": "git.jpg"
+    }
+  ],
+  "projectsMini": [
+    {
+      "name": "CSS Netflix Clone",
+      "desc": "A Netflix landing page clone in CSS and HTML.",
+      "liveLink": "https://msx47.github.io/netflix_landing_page_css3/",
+      "github": "https://github.com/msx47/netflix_landing_page_css3"
+    },
+    {
+      "name": "Twitter @ mentions",
+      "desc": " A javascript app to check @ mentions with run time parsing.",
+      "github": "https://github.com/msx47/twitter-user-mentions/"
+    },
+    {
+      "name": "Puzzle Solver",
+      "desc": "A problem solver I made for a discord challenge.",
+      "liveLink": "https://msx47.github.io/die-hard-3-jug-problem-solver/",
+      "github": "https://github.com/msx47/die-hard-3-jug-problem-solver"
+    },
+    {
+      "name": "WeatherOrNot",
+      "desc": "Simple weather App to demonstrate the use of AccuWeather API",
+      "liveLink": "https://msx47.github.io/WeatherOrNot",
+      "github": "https://github.com/msx47/WeatherOrNot"
+    },
+    {
+      "name": "C++ Games with DirectX",
+      "desc": "C++ was my first programming language and in my spare time I like to learn/make simple games with minimal physics. This repo is an archive for the same",
+      "github": "https://github.com/msx47/chilli-framework-games"
+    },
+    {
+      "name": "Secure Authentication with XOR encryption",
+      "desc": "A C++ console application for creating user accounts and storing the password and other relevant data by encrypting with XOR",
+      "github": "https://github.com/msx47/c_plus_plus_simple_login_system"
+    }
+  ]
+}

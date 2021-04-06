@@ -1,0 +1,61 @@
+.contact-footer-container{
+    margin: 0 auto;
+    max-width: 50%;
+    margin-top: 5%;
+    text-align: center;
+}
+.contact-msg{
+    color:  #CCD6F6;
+}
+.contact-message{
+    margin: 1em auto;
+    padding: 15px;
+    background-color: #0A1D49;
+    color: #6792B0;
+    border: 2px solid #31e8ff;
+    border-radius: 5px;
+    max-width: 80%;
+}
+.mail-contact{
+    font-weight: 600;
+    color: #31e8ff;
+    padding-left: 5px;
+    cursor: pointer;
+}
+.btn-two{
+    border: 2px solid #31e8ff;
+    background-color: transparent;
+    color: #31e8ff;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    padding: 15px;
+    font-size: 0.8em;
+    border-radius: 4px;
+    margin-bottom: 35%;
+    cursor: pointer;
+    /* margin-left: 2.4em; */
+    margin-top: 1.5em;
+    font-family: sfmono;
+    outline: none;
+}
+.btn-two:hover{
+    background-color: #31e7ff36;
+}
+.btn-two:focus{
+    background-color: #31e8ff;
+    color: black;
+}
+.designed{
+    font-size: 0.8em;
+    color: #6792B0;
+    font-family: sfmono;
+    padding: 10px;
+}
+.with{
+    font-size: 0.8em;
+    color: #6792B0;
+    font-family: sfmono;
+    padding: 10px;
+    margin-bottom: 1em;
+}

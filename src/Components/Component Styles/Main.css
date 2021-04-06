@@ -1,0 +1,61 @@
+body{
+    /* background-color: #0b2b38; */
+    background-color: #0e1f3a;
+}
+.svg-main-container{
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: #06181f; */
+    width: 100vw !important;
+    /* position: absolute; */
+}
+.main-body{
+    display: none;
+}
+.icon{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    width: 800px;
+    transform: scale(0.8);
+    /* background-color: #1da1f2; */
+}
+.svg-container-top{
+    transform: scale(0);
+    transition: transform 1.5s ease-in-out !important;
+}
+.svg-container{
+    width: 80px;
+}
+.svg-container polygon{
+    fill: transparent;
+    stroke-width: 0;
+    stroke: #31e8ff;
+    stroke-dasharray: 2500;
+    stroke-dashoffset: 0;
+}
+.svg-container polygon{
+    animation: animate-svg 2.5s linear forwards;
+}
+@keyframes animate-svg{
+    0%{
+        stroke-dashoffset: 2500;
+        stroke-width: 10;
+    }
+    40%{
+        stroke-dashoffset: 3750;
+    }
+    80%{
+        stroke-dashoffset: 5000;
+        fill: transparent;
+    }
+    100%{
+        stroke-dashoffset: 5000;
+        fill: #31e8ff;
+    }
+}

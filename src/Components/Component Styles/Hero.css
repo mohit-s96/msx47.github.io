@@ -1,0 +1,61 @@
+.hero-main-grid{
+    margin: 13% auto;
+    margin-bottom: 8%;
+    max-width: 50%;
+    position: relative;
+    top: 200px;
+    opacity: 0;
+    transition: all 0.6s ease-in;
+}
+.hero-main-grid-animation{
+    top: 0;
+    opacity: 1;
+}
+.intro-wrapper{
+    max-width: 90%;
+}
+.hi-message{
+    color: #31e8ff;
+    display: block;
+    font-family: sfmono;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0;
+}
+.name{
+    display: block;
+    color: #CCD6F6;
+    font-size: 3rem;
+    /* padding: 1em; */
+    margin-left: 0.6em;
+}
+.small-about{
+    max-width: 60%;
+    color: #6792B0;
+    padding: 10px;
+    font-size: 0.9em;
+    margin: 1em;
+    margin-left: 1.5em;
+    margin-top: 0.5em;
+}
+.contact-btn{
+    border: 2px solid #31e8ff;
+    background-color: transparent;
+    color: #31e8ff;
+    width: 180px;
+    padding: 20px;
+    font-size: 0.8em;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 2.4em;
+    margin-top: 1.5em;
+    font-family: sfmono;
+    outline: none;
+}
+.contact-btn:hover{
+    background-color: #31e7ff36;
+}
+.contact-btn:focus{
+    background-color: #31e8ff;
+    color: black;
+}

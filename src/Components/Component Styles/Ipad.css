@@ -1,0 +1,53 @@
+@media screen and (max-width: 1024px){
+    .hero-main-grid{
+        width: 100% !important;
+        margin-bottom: 2% !important;
+        /* top: 200px !important; */
+        /* background-color: lawngreen; */
+    }
+    .hero-main-grid-animation{
+        top: 50px !important;
+    }
+    .intro-wrapper{
+        max-width: 100% !important;
+    }
+    .name{
+        font-size: 2.2rem !important;
+        margin-left: 0.8em !important;
+    }
+    .small-about{
+        max-width: 90% !important;
+    }
+    .about-wrapper{
+        max-width: 100% !important;
+    }
+    .worked-with{
+        width: 100% !important;
+        margin-bottom: 6.5em !important;
+    }
+    .worked-grid{
+        margin: 0 !important;
+    }
+    .tect-stacklist{
+        max-width: 100% !important;
+    }
+    .projects-wrapper{
+        max-width: 95% !important;
+    }
+    .panels .div{
+        width: 350px !important;
+    }
+    .contact-footer-container{
+        max-width: 98% !important;
+    }
+    .btn-two{
+        margin-bottom: 10% !important;
+    }
+    .project-desc .languages{
+        margin-left: -18px !important;
+    }
+    .vidmodal{
+        height: 120% !important;
+        width: 98% !important;
+    }
+}

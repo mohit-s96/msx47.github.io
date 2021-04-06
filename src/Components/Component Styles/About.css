@@ -1,0 +1,95 @@
+.about-wrapper {
+  margin: 0 auto;
+  max-width: 50%;
+  position: relative;
+  top: 500px;
+  opacity: 0;
+}
+.about-wrapper-animation {
+  top: 50px;
+  opacity: 1;
+  transition: all 0.7s ease-in;
+}
+.about-me-heading {
+  color: #ccd6f6;
+}
+.main-about-me {
+  /* background-color: blanchedalmond; */
+  margin-left: 0.4em;
+  width: 90%;
+}
+.main-about-me .small-about {
+  line-height: 1.2em;
+}
+.university {
+  color: #31e8ff;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-weight: 500;
+}
+.tech-stacklist {
+  /* background-color: blanchedalmond; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 70%;
+  margin-left: 2.6em;
+  list-style-type: none;
+}
+.tech-item {
+  color: #6792b0;
+  font-size: 0.7em;
+  padding: 10px;
+  /* display: inline-block; */
+}
+ul li::before {
+  content: "\2022";
+  color: #31e8ff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.worked-with {
+  width: 100%;
+  /* background-color: red; */
+  /* text-align: end; */
+  margin-right: -10%;
+  /* float: right; */
+}
+.worked-here {
+  color: #ccd6f6;
+}
+.heading-container {
+  width: 100%;
+  text-align: start;
+}
+.worked-grid {
+  /* background-color: magenta; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: #6792b0;
+  padding: 10px;
+  font-size: 0.8em;
+  /* margin: 1em; */
+  /* margin-left: 40%; */
+  margin-top: 0.5em;
+}
+.inner-flex {
+  flex-direction: column;
+}
+.company {
+  display: block;
+  color: #6792b0;
+  padding-left: 15px;
+}
+.company span {
+  color: #31e8ff !important;
+  display: block;
+  padding: 5px;
+  transform: translateX(-1%);
+  font-size: 0.9em;
+}
+.long {
+  max-width: 80%;
+}
