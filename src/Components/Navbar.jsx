@@ -64,7 +64,7 @@ const Navbar = () => {
         </span>
         <span className="nav-item active">
           <a
-            href="https://firebasestorage.googleapis.com/v0/b/fir-auth-4f7e7.appspot.com/o/my_resume.pdf?alt=media&token=7bad5bbf-5742-47bb-86ac-11b7b32e52d2"
+            href="https://firebasestorage.googleapis.com/v0/b/fir-auth-4f7e7.appspot.com/o/mohit_2021.pdf?alt=media&token=62c7257c-5d58-4bfd-b428-c68589bdb308"
             target="_blank"
             rel="noopener noreferrer"
           >

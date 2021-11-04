@@ -1,11 +1,25 @@
-import React from "react";
+import React, { useRef } from "react";
 import about from "../info/info.json";
+import TransitionHOC from "./TransitionHOC";
 import "./Component Styles/About.css";
 
 const About = () => {
+  const ref1 = useRef();
   return (
     <div className="about-wrapper" id="about-wrapper">
-      <h3 className="about-me-heading hi-message">About Me</h3>
+      <TransitionHOC
+        text={"About Me"}
+        iref={ref1}
+        render={(props) => (
+          <h3
+            className="about-me-heading hi-message anim-perspective"
+            ref={props.ref}
+          >
+            {props.ui()}
+          </h3>
+        )}
+      />
+
       <main className="main-about-me">
         <p className="small-about">
           {about.about.headline}
@@ -23,7 +37,12 @@ const About = () => {
         </p>
         <ul className="tech-stacklist">
           {about.techlist.map((techitem) => (
-            <li className="tech-item">{techitem}</li>
+            <li
+              className="tech-item"
+              key={Math.floor(Math.random() * 100000000)}
+            >
+              {techitem}
+            </li>
           ))}
         </ul>
       </main>
@@ -33,7 +52,10 @@ const About = () => {
         </div>
         <div className="worked-grid">
           {about.workedWith.map((company) => (
-            <div className="inner-flex">
+            <div
+              className="inner-flex"
+              key={Math.floor(Math.random() * 100000000)}
+            >
               <span className="company">
                 <span>Company : </span> {company.name}
               </span>

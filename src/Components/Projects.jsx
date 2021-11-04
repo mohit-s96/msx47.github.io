@@ -13,7 +13,10 @@ class Projects extends Component {
         </div>
         <main className="project-container">
           {proj.projects.map((project, i) => (
-            <div className="project-item">
+            <div
+              className="project-item"
+              key={Math.floor(Math.random() * 100000000)}
+            >
               <div className="heading-wrapper right-heading">
                 <h3 className="project-name hi-message">
                   <span>#{i + 1} </span> {project.name}
@@ -24,7 +27,12 @@ class Projects extends Component {
                   {project.desc}
                   <div className="languages">
                     {project.languages.map((language) => (
-                      <span className="language">{language}</span>
+                      <span
+                        className="language"
+                        key={Math.floor(Math.random() * 100000000)}
+                      >
+                        {language}
+                      </span>
                     ))}
                   </div>
                   <div className="live-version">
@@ -67,7 +75,10 @@ class Projects extends Component {
             </div>
             <div className="project-inner-flex">
               {proj.projectsMini.map((miniproj) => (
-                <div className="project-desc panel-class">
+                <div
+                  className="project-desc panel-class"
+                  key={Math.floor(Math.random() * 100000000)}
+                >
                   <div className="panels">
                     <div className="front div">
                       <span>{miniproj.name}</span>

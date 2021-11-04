@@ -2,8 +2,8 @@
   margin: 0 auto;
   max-width: 50%;
   position: relative;
-  top: 500px;
-  opacity: 0;
+  top: 50px;
+  /* opacity: 0; */
 }
 .about-wrapper-animation {
   top: 50px;
