@@ -9,7 +9,7 @@ exec("npm run build", (error, stdout, stderr) => {
   }
   if (stderr) {
     console.log(`stderr: ${stderr}`);
-    return;
+    // return;
   }
   console.log(`stdout: ${stdout}`);
 
@@ -25,11 +25,11 @@ exec("npm run build", (error, stdout, stderr) => {
 });
 function readWriteSync() {
   try {
-    let data = fs.readFileSync("dist/index.html", "utf-8");
+    let data = fs.readFileSync("build/index.html", "utf-8");
 
     let newValue = data.replace(/="\//gm, '="');
 
-    fs.writeFileSync("dist/index.html", newValue, "utf-8");
+    fs.writeFileSync("build/index.html", newValue, "utf-8");
 
     console.log("Updated index.html");
   } catch (e) {
