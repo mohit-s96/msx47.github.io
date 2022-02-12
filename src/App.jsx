@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import "./Components/Component Styles/Ipad.css";
 import "./Components/Component Styles/Mobile.css";
 import Main from "./Components/Main";
+import Redirect from "./Components/Redirect";
 
 function App() {
   useEffect(() => {
@@ -13,9 +15,19 @@ function App() {
     }
   }, []);
   return (
-    <div className="App">
-      <Main />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Redirect />} />
+        <Route
+          path="v1"
+          element={
+            <div className="App">
+              <Main />
+            </div>
+          }
+        />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
