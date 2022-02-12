@@ -13,7 +13,7 @@ exec("npm run build", (error, stdout, stderr) => {
   }
   console.log(`stdout: ${stdout}`);
 
-  readWriteSync();
+  // readWriteSync();
 
   ghpages.publish("build", function (err) {
     if (err) {
